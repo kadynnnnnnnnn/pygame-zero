@@ -7,7 +7,7 @@ timer = 30
 apple = Actor("apple")
 goldapple = Actor("gold_apple")
 
-apple_draw = randint(1, 2)         # (1,10) means it's 10분의 1 확률 for the golden apple to spawn
+apple_draw = randint(1, 10)         # (1,10) means it's 10분의 1 확률 for the golden apple to spawn
 
 def draw():                     # draw -> 이미 있는 함수
     screen.clear()
